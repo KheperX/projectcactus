@@ -1,0 +1,75 @@
+
+/*------ง่ายต่อการแยกสายพันธุ์!------*/
+h1 {
+
+    font-family: 'Inter';
+    font-size: 65px;
+    margin-left: 300px;
+    margin-top: 240px;
+
+}
+
+/*------คำอธิบาย------*/
+h5 {
+    font-family: 'Inter';
+    margin-left: 300px;
+    font-weight: 1px;
+    font-size: 17px;
+}
+
+
+
+/*------เริ่มเลย BTN------*/
+
+/*------พื้นหลังวางเมาส์ ------*/
+a:hover {
+    color: #765827;
+    transition: ease-in-out;
+}
+p {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+h5 {
+    color: white;text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+button {
+    font-weight: bold;
+    margin-left: 295px;
+    margin-top: 30px;
+    border-radius: 45px;
+    font-size: 25px;
+    padding: 15px 32px;
+    color: #ffffff;
+    background-color: #765827;
+    box-shadow: 1px 1px 5px black;
+    border: none;
+    transition: transform 0.4s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.04);
+    color: #fff;
+}
+
+/*------รูป SUN------*/
+
+.image-container2 img {
+    position: absolute;
+    bottom: 590px;
+    right: 0;
+    left: 1500px;
+    width: 70px;
+    height: 70px;
+  }
+  
+  /*------รูป CACTUS------*/
+  .image-container3 img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 1100px;
+    width: 300px;
+    height: 300px;
+  }

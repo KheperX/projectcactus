@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+    background-image: url("../imgs/bgcolor.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+
+/*------Navbar------*/
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  max-width: 1;
+  margin: 0 10rem;
+}
+
+nav {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+
+/*------Logo Nav ------*/
+.image-container1 img {
+  width: 200px;
+  height: 45px;
+}
+
+
+/*------Hover ------*/
+
+a:hover {
+  color: #765827;
+}
+
+.nav-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  margin-left: 5rem;
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Inter";
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-con {
+    padding: 3rem 0;
+    flex-direction: column;
+  }
+}
+
+/*------CloseNavbar------*/
