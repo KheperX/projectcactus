@@ -7,6 +7,8 @@ import Aboutus from './page/Aboutus.jsx';
 import DetailWiki from './page/Detailwiki.jsx';
 import DetailDisease from './page/DeatilDisease.jsx';
 import DetailClan from './page/DetailClan.jsx';
+import MachineLearning from './page/MachineLearning.jsx'
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <Route path="/detailwiki/:id" element={<DetailWiki/>} />
         <Route path="/detaildisease/:id" element={<DetailDisease/>} />
         <Route path="/detailclan/:id" element={<DetailClan/>} />
+        <Route path="/mlearning" element={<MachineLearning/>} />
     </Routes>
     
   );

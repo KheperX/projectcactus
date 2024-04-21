@@ -13,6 +13,7 @@ const TypecactusSchema = new mongoose.Schema({
     planting: String,
     cactus_images: String,
     clan: String,
+    cacnameeng: String,
     updated_at: { type: Date, default: Date.now }
 });
 

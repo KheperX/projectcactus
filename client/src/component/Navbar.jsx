@@ -1,5 +1,6 @@
 import React from "react";
 import Img1 from '../page/imgs/logocactus.png'
+import '../page/styles/navbar.css'
 
 
 const Navbar = () => {

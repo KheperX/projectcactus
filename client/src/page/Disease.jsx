@@ -26,6 +26,9 @@ const Disease = () => {
   return (
     <div>
       <Navbar />
+      <div>
+        <h1 className="textclanwiki">โรคที่ควรระวัง</h1>
+      </div>
       <div className="card-list">
         {data.map((item) => (
           <Card

@@ -24,7 +24,10 @@ const Wiki = () => {
 
   return (
     <div>
-      <Navbar />
+      <Navbar/>
+      
+        <h1 className="textclanwiki">ตระกูลของแคคตัส</h1>
+      
       <div className="card-list">
         {data.map((item) => (
           <Card

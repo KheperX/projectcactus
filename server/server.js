@@ -5,8 +5,6 @@ const mongoose = require("mongoose");
 const typecactus = require("./routes/typecactus");
 const disease = require("./routes/disease");
 const wiki = require('./routes/wiki');
-const clan = require('./routes/clan');
-
 const cors = require("cors");
 
 
@@ -29,11 +27,10 @@ app.use(cors());
 // });
 
 app.use(express.json());
-
 app.use("/api/typecactus", typecactus);
 app.use("/api/dbdisease", disease);
 app.use('/api/dbwiki', wiki);
-app.use('/api/dbclan', clan);
+
 
 app.listen(3000, () => {
   console.log("Server is running on port 3000");

@@ -1,17 +1,22 @@
 /*------เกี่ยวกับเรา------*/
-h1 {
+.abouttext {
   font-family: "Inter";
   font-size: 65px;
   margin-left: 300px;
   margin-top: 240px;
+  color: white;
+  animation: slideInFromLeft 1s ease forwards;
 }
 
 /*------คำอธิบาย------*/
-h5 {
+.abouttext2 {
   font-family: "Inter";
   margin-left: 300px;
   font-weight: 1px;
   font-size: 17px;
+  text-shadow: none;
+  color: #ffffff;
+  animation: slideInFromLeft 1.5s ease forwards;
 }
 
 /*------PowerBy------*/
@@ -56,4 +61,16 @@ footer {
   position: absolute;
   top: 930px;
   left: 1500px;
+}
+
+@keyframes slideInFromLeft {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
 }

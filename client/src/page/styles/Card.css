@@ -3,20 +3,21 @@
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin-top: 90px;
+  margin-top: 60px;
+
 }
-.testedit{
+
+.testedit {
   color: rgb(255, 255, 255);
-  margin-top: 10px;
+  margin-top: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
 .card {
   height: 450px;
-  width: 350px; 
+  width: 350px;
   margin: 1px;
   background-color: #1e2f2c;
   border-radius: 30px;
@@ -26,12 +27,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  animation: slideInFromLeft 1.5s ease forwards;
   transition: transform 0.5s ease-in-out;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.03);
-} 
+}
 
 .card img {
   width: 100%;
@@ -76,6 +78,18 @@
   color: #ffffff;
 }
 
+.textclanwiki {
+  color: white;
+  margin-top: 20px;
+  font-size: 40px;
+  background-color: #1e2f2c92;
+  padding: 10px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 1s ease-in-out 1;
+}
+
 @media (max-width: 768px) {
   .card {
     width: calc(50% - 16px);
@@ -88,3 +102,28 @@
     }
   }
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+

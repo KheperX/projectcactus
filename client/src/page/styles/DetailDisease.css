@@ -1,0 +1,258 @@
+a:hover {
+    color: #765827;
+  }
+  
+  table{
+    width: 100%;
+    height: 100%;
+    background-color: #1e2f2c;
+    
+  }
+  
+  
+  .cactus-img{
+    width: 150px;
+    height: 200px;
+    transition: transform 0.5s ease-in-out;
+    
+  }
+  
+  
+  .cactus-img img {
+    width: 300%;
+    height: 430px;
+    padding: 50px;
+    border-radius: 24%;
+    align-items: center;
+    position: relative;
+    left:  290px;
+    
+  }
+  
+    .imagecontainer {
+      width: 150px; /* กำหนดความกว้างขอบเขต */
+      height: 150px; /* กำหนดความสูงขอบเขต */
+      border-radius: 50%; /* ทำให้ขอบเป็นวงกลม */
+      overflow: hidden; /* ล่องเข้ามาในขอบเขตวงกลม */
+    }
+  
+    /* CSS เพื่อสร้างกรอบรูปภาพภายในกรอบวงกลม */
+    .imagecontainer img {
+      width: 100%; /* กำหนดให้รูปภาพเต็มขอบเขตวงกลม */
+      height: auto; /* ปรับความสูงอัตโนมัติให้รูปภาพสัดส่วน */
+    }
+  
+   .text{
+    margin-bottom: 100px;
+    margin-left: 750px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: left;
+   }
+  
+  
+    
+   .h1{
+    text-align: center;
+   }
+  
+   .cacbox {
+    width: 850px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+  
+    align-items: center;
+    padding: 20px;
+    box-shadow: 1px 1px 5px black;
+    transition: transform 0.5s ease-in-out
+  }
+  
+    .cacbox:hover{
+      transform: scale(1.05);
+    }
+  
+  .cacbox-image {
+    width: 100px;
+    height: 90px;
+    border-radius: 20px;
+    margin-right: 10px;
+    position: relative;
+    right: 10px;
+  }
+  
+  .cacbox-text {
+    text-align: left;
+    font-size: 19px;
+    font-weight: lighter;
+    color: #000000;
+    position: relative;
+    justify-content: space-between;
+    font-family: 'Inter';
+  }
+  
+  
+  .cacbox-text2{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Inter';
+    font-weight: bold;
+    
+  }
+  
+  .cacbox2{
+    width: 300px;
+    height: 100px;
+    background-color: #765827;
+    border-radius: 15px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    padding: 20px;
+    right: 275px;
+    box-shadow: 1px 1px 5px black;
+    transition: transform 0.5s ease-in-out
+  }
+  
+  .cacbox3{
+    width: 300px;
+    height: 100px;
+    background-color: #765827;
+    border-radius: 15px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    padding: 20px;
+    right: 275px;
+    box-shadow: 1px 1px 5px black;
+    top: 40px;
+    transition: transform 0.5s ease-in-out
+    
+  }
+  
+  .cacbox3:hover{
+    transform: scale(1.05);
+  }
+  
+  .cacbox2:hover{
+    transform: scale(1.05);
+  }
+  
+  .cacbox-image2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 10px;
+    position: relative;
+    right: 10px;
+  }
+  
+  @media (min-width: 48rem) {
+    .Pan-card {
+      max-width: 30%;
+    }
+  }
+  
+  
+  
+  .infocardContainer * {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 300;
+  }
+  .infocardContainer {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: rgb(0,159,255);
+    background: linear-gradient(121deg, rgba(255,255,255,0) 13%, rgba(0,159,255,1) 100%);
+    transition: all 500ms ease-in;
+    transition-delay: 1s;
+    margin: auto;
+    margin-top: 100px;
+    --margin-top: 100px;
+  }
+  .infocardContainer:hover {
+    width: 500px;
+    border-radius: 100px 10px 100px 100px;
+    transition: all 1s ease-out;
+  }
+  
+  .infocardContainer div {
+    color: white;
+    flex-shrink: 1;
+    width: 100%;
+    --background-color: green;
+  }
+  .infocardContainer div * {
+    display: flex;
+    --flex: inherit;
+    overflow: hidden;
+    text-overflow: hidden;
+    --background-color: yellow;
+    color: white;
+    white-space: nowrap;
+    width: 0;
+    height: auto;
+    transition: all 450ms ease-in;
+    transition-delay: 1s;
+  }
+  .infocardContainer:hover div *{
+    --background-color: purple;
+    display: flex;
+    visibility: visible;
+    transition: all 1s ease-out;
+    transition-delay: 500ms;
+    width: 100%;
+    height: auto;
+  }
+  
+  .infocardContainer #main, .infocardContainer #main img{
+    --background-color: red;
+    height: 200px;
+    width: 200px;
+    padding-right: 10px;
+    border-radius: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .infocardContainer #main img{
+    height: 180px;
+    width: 180px;
+    transition: none;
+    display: float;
+    position: relative;
+    border: 10px solid white;
+    margin: 0 0 0 0; padding: 0 0 0 0;
+  }
+  .infocardContainer #textbois {
+    position: relative;
+  }
+  .infocardContainer #textbois #hotlinks {
+    max-width: 60%;
+    max-height: 30px;
+    
+    --background-color: white;
+    position:absolute;
+    bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 13px;
+  }
+  .infocardContainer #textbois #hotlinks * {
+    background-color: white;
+    max-width: 30px;
+    --margin: 0 1px 0 1px;
+    border-radius: 25px;
+  }
+  
+  
+  
+  
+  

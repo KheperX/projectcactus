@@ -1,0 +1,120 @@
+* {
+   box-sizing: border-box;
+ }
+ 
+ .h1ML {
+   margin-top: 100px;
+   text-align: center;
+   margin-right: 10%;
+   font-size: 40px;
+   color: white;
+ }
+ .arrow {
+     position: absolute;
+     margin-top: 30px;
+     top: 50%;
+     left: 48%;
+     transform: translate(-50%, -50%);
+     width: 20px;
+     height: 20px;
+     border-left: 2px solid white;
+     border-bottom: 2px solid white;
+     transform: rotate(225deg);
+   }
+ 
+ .layout {
+   width: 100%;
+   display: flex;
+   gap: 16px;
+ }
+ 
+ .divbox {
+   
+   max-width: 300px;
+   margin-left: 20%;
+   margin-top: 8%;
+   box-sizing: border-box;
+ }
+ 
+ .filebox {
+   width: 50%;
+   margin-left: 10%;
+   margin-top: 2%;
+   position: relative;
+   box-sizing: border-box;
+ }
+ 
+ .container2 {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+ }
+ 
+ .card1 {
+   height: 500px;
+   margin: 50px;
+   box-shadow: 5px 5px 20px black;
+   overflow: hidden;
+   margin-left: auto;
+   margin-top: auto;
+ }
+ 
+ img {
+   height: 500px;
+   width: 400px;
+   border-radius: 3px;
+   transition: 0.5s;
+ }
+ 
+ .intro {
+     height: 80px;
+     width: 400px;
+     padding: 5px;
+     box-sizing: border-box;
+     position: absolute;
+     bottom: 160px; /* ปรับค่าให้เหมาะสม */
+     background: rgba(27, 27, 27, 0.5);
+     color: white;
+     transition: 0.5s;
+   }
+ 
+ .h1model {
+   margin: 10px;
+   font-size: 22px;
+ }
+ .showcard {
+     margin-top: 50px;
+     margin-left: 500px;
+     bottom: 0;
+   }
+ 
+ .pmodel {
+   font-size: 20px;
+   margin: 20px;
+   visibility: hidden;
+   opacity: 0;
+ }
+ 
+ .span1 {
+   font-weight: bold;
+ }
+ 
+ .card1:hover {
+   cursor: pointer;
+ }
+ 
+ .card1:hover .intro {
+   height: 210px;
+   bottom: 160px;
+   background: rgba(27, 27, 27, 0.5);
+ }
+ 
+ .card1:hover p {
+   opacity: 2;
+   visibility: visible;
+ }
+ 
+ .card1:hover img {
+   transform: scale(1.1) rotate(-3deg);
+ }
+ 

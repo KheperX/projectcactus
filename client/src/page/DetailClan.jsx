@@ -4,6 +4,7 @@ import Card from "../component/Card";
 import axios from "axios";
 import { useParams } from 'react-router-dom';
 
+
 const DetailClan = () => {
   const [data, setDetailData] = useState([]);
   const { id } = useParams();
@@ -25,6 +26,7 @@ const DetailClan = () => {
   return (
     <div>
       <Navbar />
+      <h1 className="textclanwiki">สกุลของแคคตัส</h1>
       <div className="card-list">
         {data !== null ? (
           data.map((item) => (

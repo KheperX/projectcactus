@@ -1,14 +1,11 @@
 import React from 'react'
 
-const DetailDisease = () => {
+const ComDisease = () => {
   return (
     <div>
-
-
-
-        
+      
     </div>
   )
 }
 
-export default DetailDisease
+export default ComDisease
